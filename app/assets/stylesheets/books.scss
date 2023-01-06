@@ -2,6 +2,17 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+th {
+  vertical-align: middle;
+  padding-bottom: 5px;
+}
+
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 h2 {
   display:block;
   font-size:1.5em;
