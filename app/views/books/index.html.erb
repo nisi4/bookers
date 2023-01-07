@@ -1,3 +1,7 @@
+<p class="flash">
+ <%= flash[:notice] %>
+</p>
+
 <h1>Books</h1>
 
 <table>
@@ -31,7 +35,7 @@
    <% end %>
   </ul>
  <% end %>
- 
+
 
 <%= form_with model: @book,url: "books",method: :post do |f| %>
 
